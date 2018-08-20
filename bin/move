@@ -6,3 +6,5 @@ require_relative '../lib/move.rb'
 
 puts "Welcome to Tic Tac Toe!"
 puts display_board()
+puts "Enter a number from 1-9"
+index = input_to_index(gets.strip)
