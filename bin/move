@@ -12,3 +12,5 @@ index = input_to_index(gets.strip)
 def move(board, index, player = "X")
   board[index] = player
 end
+
+puts display_board(board)
